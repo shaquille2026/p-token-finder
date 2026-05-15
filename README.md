@@ -34,8 +34,6 @@ python find_first_ptoken.py
 ## Verification
 🔗 **View on Solscan:** https://solscan.io/token/9KDvApw8gAUSYEzrQLi23qSggMZKRwV99nxu877zYPdV
 
-🔗 **See the transaction:** https://solscan.io/tx/h9DDVoukzQK5Vm...
-
 ## Technical Details
 - **Program:** Solana p-token (ptokFJwJTrVCa9Kqo9x0b559V40ccBGEaRFnBPndP)
 - **Implementation:** Python with requests library
