@@ -40,3 +40,16 @@ python find_first_ptoken.py
 - **Program:** Solana p-token (ptokFJwJTrVCa9Kqo9x0b559V40ccBGEaRFnBPndP)
 - **Implementation:** Python with requests library
 - **RPC Provider:** Alchemy API
+
+## Methodology Note
+The script uses Alchemy RPC and searches for `initializeMint` instructions 
+in the P-Token program's transaction history. This approach identifies mint 
+creations through the primary method, though alternative creation paths may exist.
+
+**Verification:** Findings are also independently verified through manual 
+Solscan analysis of transaction signatures and technical features:
+- BATCH instruction presence (P-Token exclusive)
+- Compute unit consumption (652 CUs vs 4,645 old SPL)
+- RR discriminator in raw transaction data
+
+Combined methodology strengthens confidence in the result.
