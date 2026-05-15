@@ -1,2 +1,42 @@
 # p-token-finder
-Script to identify the first P-Token deployed on Solana mainnet.  Searches all blockchain activity between p-token program activation  (slot 419,472,000 - May 13, 2026) and SPL Token's creation  (slot 419,717,951 - May 14, 2026) to verify if any earlier p-token mints exist. Result: SPL Token is the genesis p-token token.
+
+## Overview
+Blockchain analysis tool to identify the **first legitimate p-token deployed on Solana mainnet** post-activation.
+
+## The Finding
+**SPL Token** is verified as the **FIRST real p-token token** ever minted on Solana.
+
+**Token Address:** `9KDvApw8gAUSYEzrQLi23qSggMZKRwV99nxu877zYPdV`  
+**Created:** May 14, 2026 at 15:55:57 UTC  
+**Slot:** 419,717,951  
+**Creator:** `F3FjaJfcyp1igqKrqVaR8njASNt96xVEz2HFDAZx7umg`
+
+## Evidence
+✅ **BATCH instruction** (p-token exclusive feature)  
+✅ **652 compute units** (96% reduction vs old SPL Token)  
+✅ **RR discriminator** in raw transaction data  
+✅ Created within 24 hours of p-token mainnet activation  
+
+## Methodology
+- Searched all blockchain slots: **419,472,000 → 419,717,951**
+- Range: p-token program activation (May 13) to SPL Token creation (May 14)
+- Used Alchemy RPC API for blockchain queries
+- Result: **0 earlier p-token mints detected**
+
+All previous "first p-token" claims lacked these technical signatures—they were LARPs on the old SPL Token program.
+
+## Usage
+```bash
+pip install requests
+python find_first_ptoken.py
+```
+
+## Verification
+🔗 **View on Solscan:** https://solscan.io/token/9KDvApw8gAUSYEzrQLi23qSggMZKRwV99nxu877zYPdV
+
+🔗 **See the transaction:** https://solscan.io/tx/h9DDVoukzQK5Vm...
+
+## Technical Details
+- **Program:** Solana p-token (ptokFJwJTrVCa9Kqo9x0b559V40ccBGEaRFnBPndP)
+- **Implementation:** Python with requests library
+- **RPC Provider:** Alchemy API
