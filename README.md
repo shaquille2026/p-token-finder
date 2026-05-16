@@ -51,3 +51,18 @@ Solscan analysis of transaction signatures and technical features:
 - RR discriminator in raw transaction data
 
 Combined methodology strengthens confidence in the result.
+
+## Community Discussion & Engagement
+
+**Follow the research thread on X/Twitter:**
+
+1. **Main Finding:** https://x.com/rektprince369/status/2055255937913405745
+2. **Script Verification:** https://x.com/rektprince369/status/2055292489360138545
+3. **Additional Analysis:** https://x.com/rektprince369/status/2055314572198736098
+
+**Join the X Community:** https://x.com/i/communities/1970995210541728208
+
+For questions, feedback, or evidence of earlier p-token deployments, 
+engage in the threads above or join the community discussion.
+
+**Follow @rektprince369 for updates on p-token research.**
