@@ -65,4 +65,4 @@ Combined methodology strengthens confidence in the result.
 For questions, feedback, or evidence of earlier p-token deployments, 
 engage in the threads above or join the community discussion.
 
-**Follow @rektprince369 for updates on p-token research.**
+
