@@ -54,16 +54,17 @@ Combined methodology strengthens confidence in the result.
 
 ## Community Discussion & Engagement
 
-**Follow the research thread on X/Twitter:**
+## Follow the Research Thread on X/Twitter
 
-1. **Main Finding/acknowledgments:** https://x.com/rektprince369/status/2055255937913405745
-                                     https://x.com/p76token/status/2055562190237974980?s=20
-4. **Script Verification:** https://x.com/rektprince369/status/2055292489360138545
-5. **Additional Analysis:** https://x.com/rektprince369/status/2055314572198736098
+**Main Finding/Acknowledgments:**
+- [Initial Discovery](https://x.com/rektprince369/status/2055255937913405745)
+- [p76token Response](https://x.com/p76token/status/2055562190237974980)
 
-**Join the X Community:** https://x.com/i/communities/1970995210541728208
+**Script Verification:**
+- [Blockchain Analysis](https://x.com/rektprince369/status/2055292489360138545)
 
-For questions, feedback, or evidence of earlier p-token deployments, 
-engage in the threads above or join the community discussion.
+**Additional Discussion:**
+- [Community Thread](https://x.com/rektprince369/status/2055314572198736098)
 
-
+**Join the X Community:**
+- [p-Token Research Community](https://x.com/i/communities/1970995210541728208)
