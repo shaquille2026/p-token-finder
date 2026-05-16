@@ -56,7 +56,7 @@ Combined methodology strengthens confidence in the result.
 
 **Follow the research thread on X/Twitter:**
 
-1. **Main Finding:** https://x.com/rektprince369/status/2055255937913405745
+1. **Main Finding/acknowledgments:** https://x.com/rektprince369/status/2055255937913405745 https://x.com/p76token/status/2055562190237974980?s=20
 2. **Script Verification:** https://x.com/rektprince369/status/2055292489360138545
 3. **Additional Analysis:** https://x.com/rektprince369/status/2055314572198736098
 
